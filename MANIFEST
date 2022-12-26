@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README.md
+t/001_load.t
+lib/Plack/Middleware/Method_Allow.pm
+perl-Plack-Middleware-Method_Allow.spec
