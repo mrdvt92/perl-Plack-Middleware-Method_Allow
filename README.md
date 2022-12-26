@@ -17,7 +17,7 @@ Explicitly allow HTTP methods and return 405 METHOD NOT ALLOWED for all others
 
 ## allow
 
-Method that set the allowed methods.  Must be an array reference of HTTP methods.
+Method that sets the allowed HTTP methods.  Must be an array reference of strings.
 
 # METHODS
 
