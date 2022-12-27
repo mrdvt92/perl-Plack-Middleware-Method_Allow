@@ -36,7 +36,7 @@ sub allow {
   my $self = shift;
   $self->{'allow'} = shift if @_;
   $self->{'allow'} = [] unless defined $self->{'allow'}; #default is to deny all
-  die("Error: Syntax `enable '$PACKAGE', allow=>['METHOD', ...]`") unless ref($self->{'allow'}) eq 'ARRAY';
+  die("Error: Syntax `enable '$PACKAGE', allow=>['METHOD', ...]`\n") unless ref($self->{'allow'}) eq 'ARRAY';
   return $self->{'allow'};
 }
 

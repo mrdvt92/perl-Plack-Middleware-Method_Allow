@@ -7,6 +7,12 @@ WriteMakefile(
                        'Plack::Middleware'     => 0,
                        'Plack::Util::Accessor' => 0,
                       },
+    BUILD_REQUIRES => {
+                       'Test::More'        => 0,
+                       'Plack::Test'       => 0,
+                       'Plack::Builder'    => 0,
+                       'HTTP::Request'     => 0,
+                      },
     ABSTRACT_FROM  => 'lib/Plack/Middleware/Method_Allow.pm',
     AUTHOR         => 'Michael R. Davis',
     META_MERGE     => {
